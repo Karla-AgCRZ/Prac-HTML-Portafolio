@@ -51,20 +51,23 @@
         <section id="Contacto">
             <h2>Contacto</h2>
             <p>Correo electrónico: <a href="lar.crz.kl@gmail.com">lar.crz.kl@gmail.com</a> </p>
-            <p>LinkedIn: <a href="http://https://www.linkedin.com/in/karla-aguilar-de-la-cruz/" target="_blank" rel="noopener noreferrer">LinkedIn Personal</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/karla-aguilar-de-la-cruz/" target="_blank" rel="noopener noreferrer">LinkedIn Personal</a></p>
 
             <form>
                 <div>
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
+                <!-- los comandos (<div><p></p></div>) son únicamente para separar las secciones de esté ejemplo lo correcto sería hacerlo con CSS pero como la práctica es para HTML por eso el sensei decidió realizarlo de está manera. -->
+                <div><p></p></div>
                 <div>
                     <label for="email">Correo electrónico</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+                <div><p></p></div>
                 <div>
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" rows="4" required maxlength="15words"></textarea>
+                    <textarea name="mensaje" id="mensaje" rows="4" required maxlength="15"></textarea>
                 </div>
                 <div><p></p></div>
                 <button type="submit">Enviar</button>
