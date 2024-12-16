@@ -2,9 +2,19 @@
 
 ## 1er ejercicio: Practicando la sintaxis.
 
+## índice
+
+- [Bloque de Código](#bloque-de-código)
+- [Lista ordenada](#lista-ordenada)
+- [Lista desordenada](#lista-desordenada)
+- [Checklist](#checklist)
+- [Tabla](#tabla)
+
 *Conociendo las diferentes funciones en el lenguaje Markdown*
 
 **Saber como integrar texto en negritas y cursiva**
+
+### Bloque de código
 
 *Añadir una explicación detallada a determinados bloques de código utilizados.*
 
@@ -25,32 +35,32 @@
 
 Resaltar la utilización de un comando como: `Alt gr +` añade el símbolo especial de virgulilla para la descripción de bloques específicos de código.
 
-**Lista ordenada**
+### Lista ordenada
 
 1. Ejemplo
 2. Ejemplo
 3. Ejemplo
 
-**Lista desordenada**
+### Lista desordenada
 
 - Ejemplo
 - Ejemplo
 - Ejemplo
 
-*Añadir Checklists*
+### Checklist
 
-**Pasos para crear un nuevo commit en Git**
+*Pasos para crear un nuevo commit en Git*
 - [x] Aplicar `git status`
-- [ ] `git add -A` Para añadir todos los cambios
+- [x] `git add -A` Para añadir todos los cambios
 - [ ] o `git add (doc específico)`
 - [ ] Comprabar que se añadieron con `git status`
 - [ ] Crear el commit `git commit "new commit"`
 
 Resaltar textos ==Como esté==
 
-Añadir emoji como :joy:
+**Añadir emoji como** :joy:
 
-Añadir tablas
+## Tabla
 
 | Subtema    | Descripción |
 | -----------| ----------- |
